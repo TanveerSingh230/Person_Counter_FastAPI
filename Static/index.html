@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload</title>
+</head>
+<body>
+    <h1>Upload an Image or a Folder of Images</h1>
+    <form action="/detect/" method="post" enctype="multipart/form-data">
+        <input type="file" name="files" multiple directory webkitdirectory mozdirectory>
+        <input type="submit">
+    </form>
+</body>
+</html>
